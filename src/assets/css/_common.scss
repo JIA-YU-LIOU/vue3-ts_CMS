@@ -1,0 +1,8 @@
+.axios-loading .el-loading-spinner {
+  animation: none !important;
+}
+
+.axios-loading .el-loading-spinner > svg {
+  animation: none !important;
+  transform: none !important;
+}

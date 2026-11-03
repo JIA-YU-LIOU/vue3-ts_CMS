@@ -17,6 +17,10 @@
         <LoginPhone />
       </el-tab-pane>
     </el-tabs>
+    <ul class="default-account">
+      <li>預設帳號：admin</li>
+      <li>預設密碼：123456</li>
+    </ul>
     <div class="account-control">
       <el-checkbox v-model="isRemPwd">記住密碼</el-checkbox>
       <el-link type="primary" onclick="alert('尚未開啟此功能')">忘記密碼</el-link>
@@ -73,6 +77,13 @@ const handleLoginBtnClick = () => {
   .text {
     margin-top: 2px;
     margin-left: 3px;
+  }
+
+  .default-account {
+    margin-top: 10px;
+    font-size: 13px;
+    color: red;
+    line-height: 1.5;
   }
 
   .account-control {
